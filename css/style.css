@@ -23,8 +23,20 @@ body {
 }
 
 .transform {
-  width: 150px;
-  height: 80px;
+  width: 400px;
+  height: 500px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg) scale(1.5);
+  -webkit-transform: rotate(20deg) scale(1.5);
+  transform: rotate(20deg) scale(1.5);
 }
 
+.transform-2 {
+  width: 200px;
+  height: 300px;
+  background-color: yellow;
+  -ms-transform: rotate(20deg) scale(1.5);
+  -webkit-transform: rotate(20deg) scale(1.5);
+  transform: rotate(20deg) scale(1.5);
+}
 /*# sourceMappingURL=style.css.map */
